@@ -24,7 +24,7 @@ namespace SimpleTests
         [TestCase(34, 44)]
         [TestCase(35, 44)]
         [TestCase(3000, 3382)]
-        [TestCase(4000000, 3382)]
+        [TestCase(4000000, 4613732)]
         [Test]
         public void CalculatesSum(long n, long expectedSum)
         {
@@ -47,7 +47,7 @@ namespace SimpleTests
         [TestCase(34, 44)]
         [TestCase(35, 44)]
         [TestCase(3000, 3382)]
-        [TestCase(4000000, 3382)]
+        [TestCase(4000000, 4613732)]
         [Test]
         public void CalculatesSkip(long n, long expectedSum)
         {
