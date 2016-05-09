@@ -11,34 +11,34 @@ namespace SimpleTests
     [TestFixture]
     public class Problem3Test
     {
-        [TestCase(2, 2)]
-        [TestCase(3, 3)]
-        [TestCase(4, 2)]
-        [TestCase(5, 5)]
-        [TestCase(6, 3)]
-        [TestCase(7, 7)]
-        [TestCase(8, 2)]
-        [TestCase(9, 3)]
-        [TestCase(10, 5)]
-        [TestCase(11, 11)]
-        [TestCase(15, 5)]
-        [TestCase(21, 7)]
-        [TestCase(29, 29)]
-        [TestCase(155, 31)]
-        [TestCase(13195, 29)]
-        [TestCase(600851475143, 6857)]
-        [TestCase(12345678901, 14405693)]
-        //[TestCase(123456789012, 10288065751)] takes to long (largest factor too close to n)
-        [TestCase(1234567890123, 116216501)]
-        //[TestCase(12345678901234, 12079920647)] takes to long (largest factor too close to n)
-        [TestCase(123456789012345, 7552031)]
-        [TestCase(1234567890123456, 435503)]
-        //[TestCase(12345678901234567, 1763668414462081)] takes to long (largest factor too close to n)
-        [TestCase(123456789012345678, 106377431)]
-        [TestCase(1234567890123456789, 27961)]
-        //[TestCase(12345678901234567890, 27961)] int too large
+        [TestCase(2UL, 2)]
+        [TestCase(3UL, 3)]
+        [TestCase(4UL, 2)]
+        [TestCase(5UL, 5)]
+        [TestCase(6UL, 3)]
+        [TestCase(7UL, 7)]
+        [TestCase(8UL, 2)]
+        [TestCase(9UL, 3)]
+        [TestCase(10UL, 5)]
+        [TestCase(11UL, 11)]
+        [TestCase(15UL, 5)]
+        [TestCase(21UL, 7)]
+        [TestCase(29UL, 29)]
+        [TestCase(155UL, 31)]
+        [TestCase(13195UL, 29)]
+        [TestCase(600851475143UL, 6857)]
+        [TestCase(12345678901UL, 14405693)]
+        [TestCase(123456789012UL, 10288065751)] //takes to long (largest factor too close to n)
+        [TestCase(1234567890123UL, 116216501)]
+        [TestCase(12345678901234UL, 12079920647)]
+        [TestCase(123456789012345UL, 7552031)]
+        [TestCase(1234567890123456UL, 435503)]
+        [TestCase(12345678901234567UL, 1763668414462081)]
+        [TestCase(123456789012345678UL, 106377431)]
+        [TestCase(1234567890123456789UL, 27961)]
+        [TestCase(12345678901234567890UL, 27961)] 
         [Test]
-        public void CalculatesFactorWithDiv(long n, long largestFactor)
+        public void CalculatesFactorWithDiv(ulong n, long largestFactor)
         {
             var sut = new Problem3();
             

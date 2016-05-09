@@ -10,18 +10,22 @@ namespace Simple.Problems
     {
         public ulong CalculateLargestFactor(ulong n)
         {
-            for (ulong div = 2; div < n; div++)
-            {
-                if (n % div == 0)
-                {
-                    n = n / div;
-                    div--;
-                }
+            ulong currentFactor = n;
+            ulong div = 2;
 
-                if (n >> 1 < div) return n;
+            while (div <= Math.Sqrt(currentFactor))
+            {
+                if (currentFactor % div == 0)
+                {
+                    currentFactor = currentFactor / div;
+                }
+                else
+                {
+                    ++div;
+                }
             }
 
-            return n;
+            return currentFactor;
         }
     }
 }

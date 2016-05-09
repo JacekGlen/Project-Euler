@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleTests
+namespace Simple.Problems
 {
-    public class Class1
+    class Problem8
     {
     }
 }

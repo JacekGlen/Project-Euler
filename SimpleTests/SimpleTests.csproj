@@ -63,12 +63,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Problem2Test.cs" />
     <Compile Include="Problem1Test.cs" />
     <Compile Include="Problem3Test.cs" />
     <Compile Include="Problem4Test.cs" />
     <Compile Include="Problem5Test.cs" />
+    <Compile Include="Problem6Test.cs" />
+    <Compile Include="Problem7Test.cs" />
+    <Compile Include="Problem8Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
