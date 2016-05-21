@@ -63,6 +63,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Problem10Test.cs" />
+    <Compile Include="Problem11Test.cs" />
+    <Compile Include="Problem12Test.cs" />
+    <Compile Include="Problem13Test.cs" />
+    <Compile Include="Problem14Test.cs" />
+    <Compile Include="Problem15Test.cs" />
+    <Compile Include="Problem16Test.cs" />
+    <Compile Include="Problem17Test.cs" />
+    <Compile Include="Problem18Test.cs" />
+    <Compile Include="Problem19Test.cs" />
+    <Compile Include="Problem20Test.cs" />
     <Compile Include="Problem2Test.cs" />
     <Compile Include="Problem1Test.cs" />
     <Compile Include="Problem3Test.cs" />
@@ -71,6 +82,7 @@
     <Compile Include="Problem6Test.cs" />
     <Compile Include="Problem7Test.cs" />
     <Compile Include="Problem8Test.cs" />
+    <Compile Include="Problem9Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 using Simple.Problems;
 
-
 namespace SimpleTests
 {
     [TestFixture]
