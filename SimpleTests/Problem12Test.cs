@@ -8,7 +8,8 @@ using Simple.Problems;
 
 namespace SimpleTests
 {
-    class Problem12Test
+    [TestFixture]
+    public class Problem12Test
     {
     }
 }
